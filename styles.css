@@ -1,0 +1,74 @@
+body {
+  background-image: url('fondo_minecraft.jpg'); /* Fondo personalizado */
+  background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-attachment: fixed; /* Mantiene el fondo fijo */
+  text-align: center;
+  color: #ffffff; /* Texto en blanco */
+}
+
+/* Estilo de los botones */
+button {
+  font-size: 24px;
+  padding: 15px 30px;
+  margin-top: 30px;
+  background-color: #ff66b2; /* Rosa fuerte */
+  color: white; /* Texto blanco */
+  border: 2px solid #ffffff; /* Borde blanco */
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #ff99cc; /* Rosa claro al pasar el cursor */
+  color: #ffffff; /* Mantiene el texto blanco */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+button:active {
+  transform: scale(0.95); /* Efecto al presionar */
+}
+
+/* Contador principal */
+#counter {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff4081; /* Rosa fuerte */
+  padding: 15px 25px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.9); /* Blanco con transparencia */
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contador externo */
+#externalCounter {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff4081; /* Rosa fuerte */
+  padding: 15px 25px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen */
+#image {
+  display: none; /* Oculta la imagen inicialmente */
+  max-width: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos */
+h1 {
+  color: #ff4081; /* Rosa fuerte */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white; /* Contorno blanco */
+  font-size: 50px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
